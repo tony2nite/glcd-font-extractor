@@ -16,7 +16,7 @@ MAX7219 dot matrix LED modules.
 
 ## Installation
 
- 1. Clone repo or download zip.
+ 1. Clone repo or [download zip](https://github.com/tony2nite/glcd-font-extractor/archive/master.zip).
  1. Install dependencies via ```requirements.txt``` e.g. ```pip install -r requirements.txt```
 
 ## Usage
@@ -30,3 +30,5 @@ font-extractor/font-extractor.py test/fonts/gameboy.ttf --output=glcdfont.c --de
 This example will output a _partial_ `glcdfont.c` whose contents can be copied and pasted into array section of you `glcdfont.c` file in your Adafruit-GFX-Library location e.g. `~/Documents/Arduino/libraries/Adafruit-GFX-Library-master`
 
 You can run `font-extractor.py` for a list of all arguments.
+
+![](https://raw.githubusercontent.com/tony2nite/glcd-font-extractor/master/example/fonts.jpg)
